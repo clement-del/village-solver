@@ -58,16 +58,14 @@ Pour observer "l'intelligence" à l'œuvre, un tableau de bord affiche :
 
 | Domaine | Technologie | Rôle |
 | :--- | :--- | :--- |
-| **Vision** | OpenCV + NumPy | Détection des contours et numérisation des pièces/grilles. |
 | **Backend** | Python 3.10+ | Moteur logique et algorithme de backtracking. |
 | **Frontend** | Streamlit ou React | Interface de dashboard et monitoring temps réel. |
 | **Communication** | WebSockets | Transmission fluide des données de calcul vers l'UI. |
-| **Performance** | Numba (JIT) | Accélération du moteur de calcul si nécessaire. |
 
 ---
 
 ## 📝 Utilisation
 
-1.  **Scan :** Photographier le support et les pièces séparément.
-2.  **Configuration :** Sélectionner via l'interface le cercle où poser la pièce 10.
-3.  **Résolution :** Lancer le moteur et observer la progression dans la zone de suivi jusqu'à l'obtention de la grille complète.
+
+1.  **Configuration :** Sélectionner via l'interface le cercle où poser la pièce 10.
+2.  **Résolution :** Lancer le moteur et observer la progression dans la zone de suivi jusqu'à l'obtention de la grille complète.
